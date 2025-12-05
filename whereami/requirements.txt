@@ -14,3 +14,4 @@ opentelemetry-propagator-gcp
 opentelemetry-exporter-gcp-trace
 opentelemetry-instrumentation-flask
 opentelemetry-instrumentation-requests
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
